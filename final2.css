@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script&family=Edu+QLD+Beginner&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Rubik+Moonrocks&family=The+Nautigal:wght@400;700&family=Titan+One&display=swap');
+
+#s2{
+    color: rgb(7, 7, 7);
+    font-size:40px;
+    font-family:'Lobster', cursive;
+    padding: 10px;
+}
+nav{
+    background-color:rgb(253, 252, 249);
+}
+#p1{
+    text-align: center;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Cormorant SC', serif;
+     color: rgb(8, 8, 8);
+     border-radius: 50px;
+     /* width: 500px; */
+}
+#hoverset:hover{
+    animation: 3s ease-in-out 1s infinite;
+   transform: rotate(0deg) scale(.8); 
+   box-shadow: rgb(211, 202, 202) 0px 0px 10px 15px;
+   /* height: 500px;  */
+   /* width: 500px; */
+   transition: .3s ease-in;
+}
+#p1{
+    text-align: center;
+    background-color: rgb(253, 252, 252);
+    font-family: 'Cormorant SC', serif;
+     color: rgb(8, 8, 8);
+     border-radius: 50px;
+    }
+#a{
+    height: 350px;
+    width: 100%;
+}
+.e2{
+    text-align: center;
+
+}
+#e3{
+    border-radius: 50px;
+    background-color: rgb(252, 250, 251);
+    border:green solid;
+    color: green;  
+}
+#e3:hover{
+    background-color: green;
+    color: white;
+}
+#x1{
+    height: 5px;
+    /* width: 300px; */
+    background-color: aqua;
+    animation: anim 3s ease-in-out 1s infinite;
+    transition: 1s ease-in-out;
+    border-radius: 50px;
+    margin-left: 0px;
+}
+@keyframes anim{
+    0%{
+
+    }
+    25%{
+       background-color: blue;
+       font-size: smaller;
+    }
+    50%{
+        color: rgb(43, 226, 58);
+        font-size: small;
+    }
+    75%{
+        background-color: orange;
+        font-size: medium;
+    }
+    /* 85%{
+        font-size:1px;
+    } */
+    100%{
+        background-color: red;
+        font-size: large;
+        
+    }
+}
+.df{
+    font-size: larger;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+    
+}
+#qe{
+    font-weight: bold;
+    /* animation: anim 3s ease-in-out 1s infinite;
+    transition: 1s ease-in-out;
+    border-radius: 50px; */
+   
+}
+.qw{
+    margin-top: 50px;
+    
+}
+a{
+    color: white;
+}
